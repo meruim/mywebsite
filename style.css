@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #ffa12a;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+}
+
+#navbar_logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.nabar_item {
+    height: 80px;
+}
+
+.navbar_links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding:  0 4rem 0 1rem ;
+    height: 100%;
+}
+
+.home {
+    background: #fff;
+}
+
+.home_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.home_content h1 {
+    font-size: 4rem;
+    color: #683b31;
+}
+
+.home_content h2 {
+    font-size: 3rem;
+    color: #faaf5e;
+}
+
+.home_content p {
+    font-size: 2rem;
+    color: #f88e8e ;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.about_image {
+    padding: 0rem 0rem 0rem 15rem;
+}
+
+.about_content {
+    justify-content: center;
+    align-items: center;
+}
+.about_content h1 {
+    font-size: 3rem;
+    color: #0008c0;
+
+}
+
+.about_content h2 {
+    font-size: 2rem;
+    color: #38da15;
+}
+
+.about_content p {
+    font-size: 1rem;
+    color: #ffcb17;
+}
+
+.about {
+    border-style: outset;
+    padding: 3rem;
+}
